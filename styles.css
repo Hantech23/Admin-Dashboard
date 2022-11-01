@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.sidebar {
+    border: 3px solid orange;
+    grid-row: span 2;
+}
+
+.header {
+    border: 3px solid blue;
+}
+
+.main {
+    border: 3px solid green;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
