@@ -3,16 +3,16 @@
     margin: 0;
 }
 .sidebar {
-    border: 3px solid orange;
     grid-row: span 2;
+    background-color: rgb(31, 39, 66);
+    color: rgb(245, 240, 240);
 }
 
 .header {
-    border: 3px solid blue;
+    background-color: rgb(187, 37, 51);
 }
 
 .main {
-    border: 3px solid green;
 }
 
 .container {
@@ -20,4 +20,18 @@
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 4fr;
     height: 100vh;
+}
+
+.sidebar img {
+    height: 40px;
+}
+
+.sidebar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing:.3vh;
 }
