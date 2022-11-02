@@ -9,10 +9,11 @@
 }
 
 .header {
-    background-color: rgb(187, 37, 51);
+    background-color: white;
 }
 
 .main {
+    background-color: rgb(161, 161, 161);
 }
 
 .container {
